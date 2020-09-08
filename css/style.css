@@ -1,0 +1,99 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: rgb(68, 68, 182);
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+.wrapper {
+  background-color: gray;
+  margin: 0 auto;
+  width: 50vw;
+  height: 57vh;
+  margin-top: 6rem;
+  box-shadow: 0px 2px 2rem 0;
+  border-radius: 1.5rem;
+  position: relative;
+}
+
+.flip-container {
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  position: absolute;
+  left: 2rem;
+  top: 1rem;
+  right: 2rem;
+  bottom: 2rem;
+  border-radius: 1.5rem;
+}
+
+.flip-details {
+  display: flex;
+  background-color: black;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  right: 2rem;
+  bottom: 2rem;
+  border-radius: 10px;
+}
+
+.owner-photo {
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+  border-radius: 7px;
+  width: 12rem;
+  height: 12rem;
+}
+
+.photo {
+  height: 100%;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.hello {
+  color: white;
+  font-size: small;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.button {
+  color: black;
+  background-color: #04cc0e;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  height: 2rem;
+  font-weight: bold;
+}
+
+.name {
+  color: #04cc0e;
+  font-weight: bold;
+}
+
+.details {
+  margin-top: 1.5rem;
+  margin-left: 5rem;
+}
+
+.hand {
+  height: 1rem;
+  width: 1rem;
+}
+
+.laptop {
+  height: 1rem;
+  width: 1rem;
+}
